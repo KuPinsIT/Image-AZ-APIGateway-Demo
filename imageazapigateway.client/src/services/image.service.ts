@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ImageService {
 
-  private apiUrl = 'https://localhost:7102/Images';
+  private apiUrl = 'https://latestimageviewer-api-djc8gzczfnanfce7.southeastasia-01.azurewebsites.net/Images';
 
   constructor(private http: HttpClient) {}
 
