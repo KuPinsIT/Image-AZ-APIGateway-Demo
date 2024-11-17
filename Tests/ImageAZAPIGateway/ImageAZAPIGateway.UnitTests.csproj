@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Application.Command\ImageAZAPIGateway.Application.Command.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Application.Common\ImageAZAPIGateway.Application.Common.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Application.Query.DataModel\ImageAZAPIGateway.Application.Query.DataModel.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Application.Query\ImageAZAPIGateway.Application.Query.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Domain.Shared\ImageAZAPIGateway.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ImageAZAPIGateway.Domain\ImageAZAPIGateway.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ImageAZAPIGateway.Infrastructure\ImageAZAPIGateway.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ImageAZAPIGateway.Persistence\ImageAZAPIGateway.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ImageAZAPIGateway.Query\ImageAZAPIGateway.Query.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

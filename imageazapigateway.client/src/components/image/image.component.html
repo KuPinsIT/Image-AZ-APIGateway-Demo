@@ -1,0 +1,17 @@
+<div class="container">
+  <header>
+    <h1>Latest Image Viewer</h1>
+  </header>
+  <main>
+    <div *ngIf="isLoading">Loading...</div>
+    <div *ngIf="!isLoading">
+      <img [src]="imageUrl" alt="Latest Image" class="latest-image" />
+      <p>Description: {{ description }}</p>
+      <p>Received At: {{ receivedAt }}</p>
+      <p>Images Received in Last Hour: {{ totalImagesLastHour }}</p>
+    </div>
+  </main>
+  <footer>
+    <button (click)="reload()">Refresh</button>
+  </footer>
+</div>

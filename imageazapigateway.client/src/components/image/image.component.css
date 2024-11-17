@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+main {
+  margin: 20px 0;
+}
+
+.latest-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore\ImageAZAPIGateway.Application.Command\ImageAZAPIGateway.Application.Command.csproj" />
+    <ProjectReference Include="..\ApplicationCore\ImageAZAPIGateway.Application.Query\ImageAZAPIGateway.Application.Query.csproj" />
+    <ProjectReference Include="..\Infrastructure\ImageAZAPIGateway.DbMigrations\ImageAZAPIGateway.DbMigrations.csproj" />
+    <ProjectReference Include="..\Infrastructure\ImageAZAPIGateway.Infrastructure\ImageAZAPIGateway.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\ImageAZAPIGateway.Persistence\ImageAZAPIGateway.Persistence.csproj" />
+    <ProjectReference Include="..\Infrastructure\ImageAZAPIGateway.Query\ImageAZAPIGateway.Query.csproj" />
+  </ItemGroup>
+
+</Project>

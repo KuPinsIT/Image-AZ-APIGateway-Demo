@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\ImageAZAPIGateway.Infrastructure\ImageAZAPIGateway.Infrastructure.csproj" />
+    <ProjectReference Include="..\ImageAZAPIGateway.Application.Common\ImageAZAPIGateway.Application.Common.csproj" />
+    <ProjectReference Include="..\ImageAZAPIGateway.Domain.Shared\ImageAZAPIGateway.Domain.Shared.csproj" />
+    <ProjectReference Include="..\ImageAZAPIGateway.Domain\ImageAZAPIGateway.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
