@@ -14,7 +14,7 @@ namespace ImageAZAPIGateway.DbMigrations
             {
                 var config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                .AddJsonFile("dbmigrations.appsettings.json", optional: true, reloadOnChange: true);
 
                 var configuration = config.Build();
                 connectionString = configuration.GetConnectionString("DefaultConnection");
