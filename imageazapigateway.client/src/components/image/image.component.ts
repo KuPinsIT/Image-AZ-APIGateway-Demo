@@ -18,9 +18,9 @@ export class ImageComponent implements OnInit, OnDestroy {
   constructor(private imageService: ImageService) {}
 
   ngOnInit(): void {
-    this.refreshSubscription = interval(5000).subscribe(() => {
-      this.reload();
-    });
+    // this.refreshSubscription = interval(5000).subscribe(() => {
+    //   this.reload();
+    // });
 
     this.reload();
   }
