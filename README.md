@@ -1,6 +1,9 @@
 # Image-AZ-APIGateway-Demo
 An Azure serverless .NET 8 API with an Angular frontend to display real-time image events received via Azure API Gateway
 
+## Architecture Overview
+Clean Architecture + DDD Pattern
+
 ## Live demo
 Check out the live demo of the project hosted on Azure.
 Please note that if it's using a free service plan, it may take some time to wake the server up at the first-time access.
