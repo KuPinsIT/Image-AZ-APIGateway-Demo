@@ -25,3 +25,4 @@ Please note that if it's using a free service plan, it may take some time to wak
 
 # Test
 - UnitTests project for domain logic tests.
+- AutomationTests: Selenium + Specflow project for posting image via api gateway and check image information display correctly on angular page
