@@ -28,5 +28,5 @@ Please note that if it's using a free service plan, it may take some time to wak
 
 # Test
 - UnitTests project for domain logic tests.
-- AutomationTests: Selenium + Specflow project for posting image via api gateway and check image information display correctly on angular page
+- AutomationTests (Report Updating): Selenium + Specflow project for posting image via api gateway and check image information display correctly on angular page
 ![image](https://github.com/user-attachments/assets/9620c4c6-8985-4817-adbe-56d8747dd573)
