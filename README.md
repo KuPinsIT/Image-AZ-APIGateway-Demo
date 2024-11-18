@@ -7,6 +7,7 @@ Please note that if it's using a free service plan, it may take some time to wak
 
 - Swagger API Documentation: [API Documentation URL](https://latestimageviewer-api-djc8gzczfnanfce7.southeastasia-01.azurewebsites.net/swagger/index.html)
 - Angular Application: [Angular App Demo URL](https://latestimageviewer-hefeeef7bpa0fcar.southeastasia-01.azurewebsites.net/)
+- Gateway API: [Gateway API for creating image](https://latestimageviewer-apigateway.azure-api.net/public/Images)
 
 # Development
 
